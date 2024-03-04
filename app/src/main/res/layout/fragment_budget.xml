@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow_mid"
+    tools:context=".Views.MainFragments.BudgetFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView_budgetFragment_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/budgetFragment_totalBudget"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView_budgetFragment_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="90dp"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="150dp">
+
+        <Spinner
+            android:id="@+id/spinner_budgetFragment_cat"
+            android:layout_width="190dp"
+            android:layout_height="60dp" />
+
+        <EditText
+            android:id="@+id/editText_budgetFragment_amount"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_budgetFragment_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="240dp"
+        android:text="@string/budgetFragment_updateButton"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_budgetFragment_catList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="310dp"/>
+
+
+</FrameLayout>

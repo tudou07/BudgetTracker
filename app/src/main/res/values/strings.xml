@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">BudgetApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Welcome!</string>
+    <string name="profileFragment_name">Welcome!</string>
+    <string name="profileFragment_budgetTitle">MONTHLY BUDGET : </string>
+    <string name="menu_bill">Bills</string>
+    <string name="menu_budget">Budgets</string>
+    <string name="menu_expense">Expenses</string>
+    <string name="menu_profile">Profile</string>
+    <string name="billFragement_bills">Bills</string>
+    <string name="billFragment_type">Type:</string>
+    <string name="billFragment_amount">Amount:</string>
+    <string name="billFragment_due">Date Due:</string>
+    <string name="expenses_add">Add Expenses</string>
+    <string name="radioTransacton_expenses">Transaction</string>
+    <string name="radioBill">Bill</string>
+    <string name="expense_category">Category</string>
+    <string name="expense_cad">Amount $</string>
+    <string name="expense_add">Add Expense</string>
+    <string name="expense_recurring">Recurring</string>
+    <string name="expenseFragment_date">Date</string>
+    <string name="billFragment_transactions">Transactions</string>
+    <string name="menu_bill_trans">Bills and Transactions</string>
+    <string name="billFragment_freq">Freq:</string>
+    <string name="billFrag_sort">Sort</string>
+    <string name="billFrag_filter">Filter</string>
+    <string name="budgetFragment_totalBudget">Your Total Budget:</string>
+    <string name="budgetFragment_updateButton">UPDATE</string>
+    <string name="budgetRecycler_budgetType">Budget Type:</string>
+    <string name="budgetRecycler_budgetAmount">Budget Amount:</string>
+    <string name="username">username</string>
+    <string name="password">Password</string>
+    <string name="budgettracker">BudgetTracker</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="profile_spent">Spent: </string>
+    <string name="profile_budgetAmount">Budget Amount:</string>
+    <string name="profile_spent_upper">"Spent: "</string>
+</resources>

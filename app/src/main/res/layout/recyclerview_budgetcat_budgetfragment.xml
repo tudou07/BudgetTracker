@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="20dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView_budget"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TableLayout
+                android:layout_width="105dp"
+                android:layout_height="120dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView_budgetFragment_budgetType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="@string/budgetRecycler_budgetType" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView_budgetFragment_budgetAmount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="@string/budgetRecycler_budgetAmount" />
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView_budgetFragment_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="TextView" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView_budgetFragment_bAmount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="TextView" />
+                </TableRow>
+
+            </TableLayout>
+
+        </TableRow>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
